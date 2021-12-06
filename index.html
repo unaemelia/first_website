@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Website for a Web Development Student">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="portfolio, web developer">
+    <meta name="author" content="Una Emelia">
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-32x32.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+        body {
+            background-image: url('images/blackbackground.svg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <title>Home</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <!--Js Assignment 1 Buttons-->
+            <li class="link"><img class="logo" src="images/logosmaller.svg" alt="logo"></li>
+            <li class="link">
+                <form><button id="btn-index" type="button">Home</button></form>
+            </li>
+            <li class="link">
+                <form><button id="btn-merits" type="button">Merits</button></form>
+            </li>
+            <li class="link">
+                <form><button id="btn-contact" type="button">Contact</button></form>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="grid-container">
+        <div class="about-me">
+            <h1 style="color: rgb(60, 60, 60)">Una Emel&iacute;a</h1>
+            <h2>Web Development Student<br> with focus on E-commerce</h2>
+        </div>
+        <div class="contact-me">
+            <h1 style="color: rgb(60, 60, 60)">Contact me!</h1>
+            <form action="contact.html">
+                <button class="contact-button">Contact</button>
+            </form>
+        </div>
+
+        <footer class="footer">
+            <div class="left">
+                <p>Una Emel&iacute;a <br>&copy; 2020</p>
+            </div>
+            <div class="middle">
+                <a href="index.html" style="color:#C1C1C1">Home</a><br>
+                <a href="merits.html" style="color:#C1C1C1">Merits</a><br>
+                <a href="contact.html" style="color:#C1C1C1">Contact</a>
+            </div>
+            <div class="right">
+                <a href="mailto:Una.Emelia.Arnadottir@cmeducations.se" style="color:#4169E1">Email</a><br>
+                <a href="https://www.linkedin.com/in/unaarnadottir" target="_blank"><img
+                        src="./images/linkedIn_logo.png" alt="LinkedIn Logo" class="linkedin-footer"></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
